@@ -12,5 +12,5 @@ jobs:
       - name: run Super-Linter
         uses: github/super-linter@v3
         env:
-          DEFAULT_BRANCH: Aamaan-Sharrma
+          DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
